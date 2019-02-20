@@ -1,0 +1,58 @@
+---
+name: Home
+route: /
+order: 1
+---
+
+# create-react-catalog
+
+
+## cli usage
+```bash
+mkdir <library-name>
+cd library-name
+npx create-react-catalog
+```
+
+
+## Sample components
+
+
+### install 
+```code
+  npm install --save create-react-catalog
+```
+
+### usage 
+```code
+import React from 'react'
+import { Button } from 'create-react-catalog'
+
+const Example = () => <Button>foo</Button>
+```
+
+
+
+### Gitlab
+
+This project bootstraps with Gitlab configurations for module publishing and docs publishing
+
+After pushing your code to a Gitlab repo
+
+#### Gitlab Pages
+
+Building catalog to the `/public` folder enables gitlab to publish it to pages.
+
+https://about.gitlab.com/product/pages/
+
+
+
+#### Gitlab Publish
+
+To enable auto npm publish 
+
+1. Create a NPM publish token @ https://www.npmjs.com/settings/{npm-user-name}/tokens
+2. Add it as a secret variable `NPM_TOKEN` https://docs.gitlab.com/ce/ci/variables/README.html#user-defined-variables-secure-variables
+
+
+
