@@ -1,9 +1,19 @@
 {
-  "name": "use-local-storage",
-  "version": "0.5.0",
+  "name": "hook-local-storage",
+  "version": "0.0.1",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
+  "license": "MIT",
+  "keywords": [
+    "docz",
+    "react",
+    "rollup",
+    "library",
+    "hook",
+    "localstorage"
+  ],
+  "author": "Bradley Gaynor <bradmgaynor@gmail.com> (http://bradgaynor.com)",
   "peerDependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",

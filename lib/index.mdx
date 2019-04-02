@@ -4,55 +4,57 @@ route: /
 order: 1
 ---
 
-# create-react-catalog
+# use-local-storage
 
+Module for interacting with browsers localstorage
 
-## cli usage
+## Install
+
 ```bash
-mkdir <library-name>
-cd library-name
-npx create-react-catalog
+npm install hook-local-storage
 ```
 
 
-## Sample components
+## Usage
+
+import { Playground, PropsTable } from 'docz'
+import useLocalStorage from './use-local-storage'
+import TestBed from './TestBed'
 
 
-### install 
-```code
-  npm install --save create-react-catalog
-```
+<Playground>
+  {() => {
+    const [count, setCount] = useLocalStorage('count', 0)
+    const [todos, setTodos] = useLocalStorage('todos', [])
+    const [input, setInput] = useLocalStorage('input', '')
+    const addTodo = () => {
+        setTodos(todos.concat(input))
+        setInput('')
+        
+    }
+    const removeTodo = (index) => {
+        const copy = [].concat(todos)
+        copy.splice(index, 1)
+        setTodos(copy)
+    }
 
-### usage 
-```code
-import React from 'react'
-import { Button } from 'create-react-catalog'
-
-const Example = () => <Button>foo</Button>
-```
-
-
-
-### Gitlab
-
-This project bootstraps with Gitlab configurations for module publishing and docs publishing
-
-After pushing your code to a Gitlab repo
-
-#### Gitlab Pages
-
-Building catalog to the `/public` folder enables gitlab to publish it to pages.
-
-https://about.gitlab.com/product/pages/
-
-
-
-#### Gitlab Publish
-
-To enable auto npm publish 
-
-1. Create a NPM publish token @ https://www.npmjs.com/settings/{npm-user-name}/tokens
-2. Add it as a secret variable `NPM_TOKEN` https://docs.gitlab.com/ce/ci/variables/README.html#user-defined-variables-secure-variables
-
-
-
+    return (
+        <TestBed>
+            <h1>useLocalStorage</h1>
+            <div>
+                <p>Refeashing the page will keep the count!</p>
+                <button nature='primary' onClick={() => setCount(count + 1)}>count: {count}</button>
+            </div>
+            <div> 
+                <p>Works for objects too!</p>
+                <input type='text' value={input} onChange={e => setInput(e.target.value)} onKeyPress={e => e.key === 'Enter' &&  addTodo()}/>
+                <button nature='primary' onClick={addTodo}>addTodo</button>
+                <script>alert('hi')</script>
+                {todos.map((todo, index) => {
+                    return <p key={index} onClick={() => removeTodo()}>{todo}</p>
+                })}
+            </div>
+        </TestBed>
+    )
+  }}
+</Playground>
