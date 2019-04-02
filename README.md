@@ -1,11 +1,4 @@
-## create-react-catalog
+## use-local-storage
 
-https://bmgaynor.gitlab.io/create-react-catalog/#/
+http://bradgaynor.com/hook-local-storage/
 
-
-## Publishing 
-
-```bash
-npm version patch
-git push
-```
