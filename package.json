@@ -14,6 +14,11 @@
     "localstorage"
   ],
   "author": "Bradley Gaynor <bradmgaynor@gmail.com> (http://bradgaynor.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bmgaynor/hook-local-storage.git"
+  },
+  "homepage": "http://bradgaynor.com/hook-local-storage/",
   "peerDependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
@@ -48,6 +53,7 @@
     "build": "npm run build:docs && npm run build:module",
     "build:module": "rollup -c",
     "build:docs": "docz build",
+    "deploy:docs": "npx gh-pages --dist .docz/dist",
     "watch-module": "rollup -c -w"
   },
   "eslintConfig": {

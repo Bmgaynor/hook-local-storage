@@ -1,4 +1,4 @@
 export default {
   src: './lib',
-  base: '/use-local-storage/'
+  base: '/hook-local-storage/'
 }
