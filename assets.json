@@ -1,13 +1,13 @@
 {
-  "vendors.js": "/use-local-storage/static/js/vendors.41948b88.js",
-  "vendors.js.map": "/use-local-storage/static/js/vendors.98556b9f5b54d31573f5.js.map",
-  "app.js": "/use-local-storage/static/js/app.4b2c2491.js",
-  "app.js.map": "/use-local-storage/static/js/app.98556b9f5b54d31573f5.js.map",
-  "index.js": "/use-local-storage/static/js/index.c2eb5bee.js",
-  "index.js.map": "/use-local-storage/static/js/index.98556b9f5b54d31573f5.js.map",
-  "runtime~app.js": "/use-local-storage/static/js/runtime~app.98556b9f5b54d31573f5.js",
-  "runtime~app.js.map": "/use-local-storage/static/js/runtime~app.98556b9f5b54d31573f5.js.map",
-  "static/js/4.485d2c51.js": "/use-local-storage/static/js/4.485d2c51.js",
-  "static/js/4.98556b9f5b54d31573f5.js.map": "/use-local-storage/static/js/4.98556b9f5b54d31573f5.js.map",
-  "index.html": "/use-local-storage/index.html"
+  "vendors.js": "/hook-local-storage/static/js/vendors.318e35aa.js",
+  "vendors.js.map": "/hook-local-storage/static/js/vendors.922187664483e451533f.js.map",
+  "app.js": "/hook-local-storage/static/js/app.64242113.js",
+  "app.js.map": "/hook-local-storage/static/js/app.922187664483e451533f.js.map",
+  "index.js": "/hook-local-storage/static/js/index.c2eb5bee.js",
+  "index.js.map": "/hook-local-storage/static/js/index.922187664483e451533f.js.map",
+  "runtime~app.js": "/hook-local-storage/static/js/runtime~app.922187664483e451533f.js",
+  "runtime~app.js.map": "/hook-local-storage/static/js/runtime~app.922187664483e451533f.js.map",
+  "static/js/4.485d2c51.js": "/hook-local-storage/static/js/4.485d2c51.js",
+  "static/js/4.922187664483e451533f.js.map": "/hook-local-storage/static/js/4.922187664483e451533f.js.map",
+  "index.html": "/hook-local-storage/index.html"
 }
