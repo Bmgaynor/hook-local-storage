@@ -1,0 +1,42 @@
+version: 2
+    
+jobs:
+  build:
+    docker:
+      - image: node:latest
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: npm install
+      - run:
+          name: Build 
+          command: npm run build
+      - persist_to_workspace:
+          root: _build
+          paths: 
+            - dist 
+            - .docz/dist
+
+  deploy:
+    docker:
+      - image: node:latest
+    steps:
+      - checkout
+      - attach_workspace:
+          at: docs/_build
+      - run:
+          name: Install and configure dependencies
+          command: |
+            npm install -g --silent gh-pages@2.0.1
+            git config user.email "bradmgaynor@gmail.com"
+            git config user.name "Brad Gaynor"
+      - run:
+          name: Deploy docs to gh-pages branch
+          command: gh-pages --dist docs/_build/html
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build
+      - deploy
