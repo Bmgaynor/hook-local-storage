@@ -51,7 +51,7 @@ import TestBed from './TestBed'
                 <button nature='primary' onClick={addTodo}>addTodo</button>
                 <script>alert('hi')</script>
                 {todos.map((todo, index) => {
-                    return <p key={index} onClick={() => removeTodo()}>{todo}</p>
+                    return <p key={index} onClick={() => removeTodo(index)}>{todo}</p>
                 })}
             </div>
         </TestBed>
