@@ -1,13 +1,13 @@
 {
-  "vendors.js": "/hook-local-storage/static/js/vendors.318e35aa.js",
-  "vendors.js.map": "/hook-local-storage/static/js/vendors.a47be1af06154d1dfdd0.js.map",
-  "app.js": "/hook-local-storage/static/js/app.9944a1af.js",
-  "app.js.map": "/hook-local-storage/static/js/app.a47be1af06154d1dfdd0.js.map",
-  "index.js": "/hook-local-storage/static/js/index.31c0d4db.js",
-  "index.js.map": "/hook-local-storage/static/js/index.a47be1af06154d1dfdd0.js.map",
-  "runtime~app.js": "/hook-local-storage/static/js/runtime~app.a47be1af06154d1dfdd0.js",
-  "runtime~app.js.map": "/hook-local-storage/static/js/runtime~app.a47be1af06154d1dfdd0.js.map",
+  "vendors.js": "/hook-local-storage/static/js/vendors.f2dec0c6.js",
+  "vendors.js.map": "/hook-local-storage/static/js/vendors.6092bbad8b310e9ea465.js.map",
+  "app.js": "/hook-local-storage/static/js/app.93d8dd2b.js",
+  "app.js.map": "/hook-local-storage/static/js/app.6092bbad8b310e9ea465.js.map",
+  "index.js": "/hook-local-storage/static/js/index.f33bb0f4.js",
+  "index.js.map": "/hook-local-storage/static/js/index.6092bbad8b310e9ea465.js.map",
+  "runtime~app.js": "/hook-local-storage/static/js/runtime~app.6092bbad8b310e9ea465.js",
+  "runtime~app.js.map": "/hook-local-storage/static/js/runtime~app.6092bbad8b310e9ea465.js.map",
   "static/js/4.485d2c51.js": "/hook-local-storage/static/js/4.485d2c51.js",
-  "static/js/4.a47be1af06154d1dfdd0.js.map": "/hook-local-storage/static/js/4.a47be1af06154d1dfdd0.js.map",
+  "static/js/4.6092bbad8b310e9ea465.js.map": "/hook-local-storage/static/js/4.6092bbad8b310e9ea465.js.map",
   "index.html": "/hook-local-storage/index.html"
 }
