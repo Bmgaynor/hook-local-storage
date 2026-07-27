@@ -1,6 +1,6 @@
 {
   "name": "hook-local-storage",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -19,7 +19,7 @@
   "author": "Bradley Gaynor <bradmgaynor@gmail.com> (http://bradgaynor.com)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bmgaynor/hook-local-storage.git"
+    "url": "https://github.com/Bmgaynor/hook-local-storage.git"
   },
   "homepage": "http://bradgaynor.com/hook-local-storage/",
   "peerDependencies": {
