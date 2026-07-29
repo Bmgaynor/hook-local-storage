@@ -49,7 +49,6 @@ import TestBed from './TestBed'
                 <p>Works for objects too!</p>
                 <input type='text' value={input} onChange={e => setInput(e.target.value)} onKeyPress={e => e.key === 'Enter' &&  addTodo()}/>
                 <button nature='primary' onClick={addTodo}>addTodo</button>
-                <script>alert('hi')</script>
                 {todos.map((todo, index) => {
                     return <p key={index} onClick={() => removeTodo(index)}>{todo}</p>
                 })}
